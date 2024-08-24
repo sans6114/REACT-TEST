@@ -41,10 +41,10 @@ const [userState, setUser] = useState(initialUser)
                     <span className="text-md">@{user}</span>
                     {
                         initialUser ? (
-                        <div className='flex flex-col gap-y-1'>
+                        <div className='flex flex-col gap-y-1 w-full'>
 
                             <span className="text-md">{userState}</span>
-                                <button onClick={handleUser} className='rounded-full bg-white text-black my-2'>change user 2</button>
+                                <button onClick={handleUser} className='w-52 py-2 px-1 rounded-full bg-white text-black my-2'>change user 2</button>
                         </div>
                         
                         ) : null
