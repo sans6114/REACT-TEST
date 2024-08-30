@@ -1,8 +1,8 @@
-const TitleH2 = ({ children, textSubtitle, btnText }) => {
+const Titles = ({ children, textSubtitle, btnText }) => {
 
     return (
         <div className="flex flex-col gap-y-2 text-center">
-            <h2 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>
+            <h2 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center mt-10'>
                 {children}
             </h2>
             {
@@ -18,4 +18,4 @@ const TitleH2 = ({ children, textSubtitle, btnText }) => {
         </div>
     )
 }
-export default TitleH2
+export default Titles

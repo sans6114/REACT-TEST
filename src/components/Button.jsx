@@ -1,7 +1,7 @@
-export const Button = ({ btnText, resetGame }) => {
+export const Button = ({ btnText, onClick }) => {
 
     const handleClick = () => {
-        resetGame()
+        onClick()
     }
 
     return (
